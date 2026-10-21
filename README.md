@@ -3,7 +3,7 @@
 Landing page responsiva para a **Sprig**, uma startup fictícia de kits de horta para apartamentos. Projeto do **Programa de Estágio de Férias — Desenvolvimento de Software (DEV)**.
 
 - **Repositório:** https://github.com/gabriel6785/sprig
-- **Site publicado:** 
+- **Site publicado:** https://sprig-murex.vercel.app/
 
 ## Objetivo
 Simular uma demanda real de mercado: criar uma página profissional, responsiva e funcional para divulgar um negócio, aplicando HTML5, CSS3 e JavaScript.
