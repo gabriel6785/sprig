@@ -2,7 +2,7 @@
 
 Landing page responsiva para a **Sprig**, uma startup fictícia de kits de horta para apartamentos. Projeto do **Programa de Estágio de Férias — Desenvolvimento de Software (DEV)**.
 
-- **Repositório:** 
+- **Repositório:** https://github.com/gabriel6785/sprig
 - **Site publicado:** 
 
 ## Objetivo
@@ -31,13 +31,6 @@ sprig/
 ├── js/script.js
 └── README.md
 ```
-
-## Como executar
-Basta abrir o `index.html` no navegador. Não há dependências.
-
-## Como publicar
-1. Crie um repositório no GitHub e envie os arquivos.
-2. No [Vercel](https://vercel.com), clique em **Add New → Project**, importe o repositório e faça o **Deploy** (sem build command).
 
 ## Autor
 Gabriel Capel Alves - 221112025
