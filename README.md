@@ -1,6 +1,6 @@
 # Sprig — Landing Page
 
-Landing page responsiva para a **Sprig**, uma startup fictícia de kits de horta para apartamentos. Projeto do **Programa de Estágio de Férias — Desenvolvimento de Software (DEV)**.
+Landing page responsiva para a **Sprig**, uma startup fictícia de kits de horta para apartamentos. Projeto do **Estágio de Desenvolvimento de Software (DEV)**.
 
 - **Repositório:** https://github.com/gabriel6785/sprig
 - **Site publicado:** https://sprig-murex.vercel.app/
