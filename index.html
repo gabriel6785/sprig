@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sprig — Sua horta em casa, sem complicação</title>
+  <meta name="description" content="Sprig entrega kits de horta para apartamento com sementes, vasos e guia de cultivo. Colha temperos frescos em até 30 dias.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#sobre">Ir para o conteúdo</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Sprig</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato" class="nav__cta">Fale conosco</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <h1>Sprig</h1>
+          <p class="hero__slogan">Sua horta em casa, sem complicação.</p>
+          <p class="hero__desc">Kits prontos com sementes orgânicas, vasos autoirrigáveis e um guia passo a passo. Em até 30 dias você colhe manjericão, cebolinha e hortelã direto da janela da cozinha.</p>
+          <div class="hero__actions">
+            <a href="#contato" class="btn btn--primary">Quero meu kit</a>
+            <a href="#sobre" class="btn btn--ghost">Como funciona</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="pot pot--1"><span class="leaf"></span><span class="leaf"></span><span class="leaf"></span></div>
+          <div class="pot pot--2"><span class="leaf"></span><span class="leaf"></span><span class="leaf"></span></div>
+          <div class="pot pot--3"><span class="leaf"></span><span class="leaf"></span><span class="leaf"></span></div>
+          <div class="shelf"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container about">
+        <h2>Uma horta cabe em qualquer apartamento</h2>
+        <div class="about__cols">
+          <p>A Sprig nasceu para quem quer comer melhor, mas acha que não tem espaço, tempo ou “mão boa” para plantar. Montamos kits completos que cabem numa janela e funcionam mesmo para quem nunca cultivou nada.</p>
+          <p><strong>Nosso objetivo:</strong> levar alimento fresco e cultivo consciente para a rotina das cidades, reduzindo desperdício e aproximando as pessoas da origem do que comem.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="beneficios">
+      <div class="container">
+        <h2>O que você ganha com a sua horta</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Temperos sempre frescos</h3>
+            <p>Colha só o que vai usar. Sabor muito mais intenso que o de pacotes de mercado.</p>
+          </article>
+          <article class="card">
+            <h3>Economia no mês</h3>
+            <p>Um kit rende dezenas de colheitas e substitui várias compras de ervas.</p>
+          </article>
+          <article class="card">
+            <h3>Menos lixo, mais saúde</h3>
+            <p>Sem embalagens plásticas e sem agrotóxicos. Você sabe exatamente o que cultiva.</p>
+          </article>
+          <article class="card">
+            <h3>Bem-estar em casa</h3>
+            <p>Cuidar de plantas reduz o estresse e deixa o ambiente mais agradável.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="diferenciais">
+      <div class="container">
+        <h2>Por que escolher a Sprig</h2>
+        <ul class="features">
+          <li><strong>Vaso autoirrigável.</strong> Rega uma vez por semana e pronto.</li>
+          <li><strong>Sementes orgânicas.</strong> Selecionadas para clima urbano brasileiro.</li>
+          <li><strong>Guia em vídeo e papel.</strong> Do plantio à primeira colheita.</li>
+          <li><strong>Suporte por WhatsApp.</strong> Mande uma foto e um especialista responde.</li>
+          <li><strong>Garantia de germinação.</strong> Se não brotar, enviamos novas sementes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="contato">
+      <div class="container contact">
+        <div>
+          <h2>Vamos plantar juntos?</h2>
+          <p>Envie uma mensagem e indicamos o melhor kit para o seu espaço.</p>
+          <ul class="contact__list">
+            <li>E-mail: <a href="mailto:ola@sprig.com.br">ola@sprig.com.br</a></li>
+            <li>Telefone: <a href="tel:+5511999990000">(11) 99999-0000</a></li>
+            <li>Redes: <a href="#" aria-label="Instagram da Sprig">Instagram</a> e <a href="#" aria-label="TikTok da Sprig">TikTok</a></li>
+          </ul>
+        </div>
+
+        <form class="form" id="contactForm" novalidate>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name" required>
+          <small class="error" data-for="nome"></small>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          <small class="error" data-for="email"></small>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          <small class="error" data-for="mensagem"></small>
+
+          <button type="submit" class="btn btn--primary">Enviar mensagem</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p><strong>Sprig</strong> — projeto fictício criado para o Programa de Estágio em Desenvolvimento de Software.</p>
+      <p>© <span id="year"></span> Sprig. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
